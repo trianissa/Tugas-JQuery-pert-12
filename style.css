@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+.main-container{
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu-container, .pesanan-container{
+    width: 400px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td:first-child,
+td:last-child {
+    text-align: center;
+}
+
+td:nth-child(3) {
+    text-align: right;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tfoot td{
+    background-color: lightgray;
+}
